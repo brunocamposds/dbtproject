@@ -46,4 +46,4 @@ with prod as (
         on           ord.order_id = od.order_id
     )
 
-    select * from final_join limit 3000
+    select * from final_join
